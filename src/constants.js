@@ -1,7 +1,7 @@
 const ethers = require('ethers')
 const _ = require('lodash')
 const { createAlchemyWeb3 } = require('@alch/alchemy-web3')
-const ERC20abi = require('human-standard-token-abi.json')
+const ERC20abi = require('human-standard-token-abi')
 const astAbi = require('./abis/AirSwapToken_rinkeby.json')
 const wethAbi = require('./abis/WETH_ABI.json')
 const deltaBalancesABI = require('./abis/deltaBalancesABI.json')
